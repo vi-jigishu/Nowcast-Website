@@ -1,0 +1,38 @@
+body {
+    background-color: #201f1f; /* Grey background */
+    color: white; /* White font */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: white; /* Button background */
+    color: grey; /* Button text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: lightgrey; /* Button hover effect */
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid white; /* Table cell border */
+    padding: 10px;
+    text-align: center;
+}
